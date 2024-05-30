@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer utilities {
+    .primaryBtn {
+      @apply text-white font-medium rounded-[5px] bg-primary-clr p-2 hover:bg-white transition-all ease-in-out delay-150 duration-300 hover:text-black;
+    }
+    .title{
+      @apply text-[35px] font-bold
+    }
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  h1 {
+    margin: 0;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
